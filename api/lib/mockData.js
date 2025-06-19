@@ -16,10 +16,10 @@ export const mockBooks = [
   {
     id: 2,
    title: "Untitled",
-    series: "Freeing Allieria",
-    position: "Book 2",
-    author: "C. B. Reed",
-    description:
+   series: "Freeing Allieria",
+   position: "Book 2",
+   author: "C. B. Reed",
+   description:
       "Set after Book 1.",
     image_url: "/images/books/under-construction.jpg",
     genre: "Fantasy",
