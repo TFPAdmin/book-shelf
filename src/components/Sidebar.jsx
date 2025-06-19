@@ -38,7 +38,7 @@ function Sidebar({ genres, activeGenre, counts }) {
         </div>
       </nav>
 
-      <div className="mt-auto pt-6 px-6">
+      <div className="mt-auto pt-15 px-15">
         <div className="text-xs text-gray-900">
           Check Out My Books On Wattpad
           <br />
