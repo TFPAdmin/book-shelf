@@ -40,15 +40,15 @@ function Sidebar({ genres, activeGenre, counts }) {
 
       <div className="mt-auto pt-6 px-6">
         <div className="text-xs text-gray-900">
-          Powered by
+          Check Out My Books On Wattpad
           <br />
           <a
-            href="https://cloudflare.com"
+            href="https://www.wattpad.com/user/CBReed_Author"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-800 hover:underline"
           >
-            Cloudflare
+            Wattpad
           </a>
         </div>
       </div>
