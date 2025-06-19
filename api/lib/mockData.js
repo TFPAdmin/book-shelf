@@ -3,8 +3,7 @@ export const mockBooks = [
   {
     id: 1,
     title: "Untitled",
-    series: "Freeing Allieria",
-    position: "Book 1",
+    subtitle: "Freeing Allieria: Book 1",
     author: "C. B. Reed",
     description:
       "On his 13th birthday Damien received some world shattering news. Now, a year later, he is ready to embrace his new identity and do what needs to be done.",
@@ -16,8 +15,7 @@ export const mockBooks = [
   {
     id: 2,
    title: "Untitled",
-   series: "Freeing Allieria",
-   position: "Book 2",
+   subtitle: "Freeing Allieria: Book 2",
    author: "C. B. Reed",
    description:
       "Set after Book 1.",
