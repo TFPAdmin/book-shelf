@@ -41,7 +41,7 @@ function BookDetail({ bookData }) {
             </div>
             <div className="md:w-2/3 lg:w-3/4">
               <h1 className="mb-3">{book.title}</h1>
-              <h1 className="mb-3">{book.subtitle}</h1>
+              <h2 className="mb-3">{book.subtitle}</h2>
               <h2 className="text-xl text-gray-900 mb-6 font-serif font-normal">
                 by {book.author}
               </h2>
