@@ -15,7 +15,7 @@ export const mockBooks = [
   {
     id: 2,
    title: "Untitled",
-   subtitle: "Freeing Allieria: Book 2",
+   subtitle: "Changing Allieria: Book 2",
    author: "C. B. Reed",
    description:
       "Set after Book 1.",
