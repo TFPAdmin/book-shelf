@@ -90,6 +90,12 @@ function BookDetail({ bookData }) {
                   <div className="font-serif text-gray-900 mb-1 line-clamp-1">
                     {relBook.title}
                   </div>
+                  <div className="font-serif text-gray-900 mb-1 line-clamp-1">
+                    {relBook.series}
+                  </div>
+                  <div className="font-serif text-gray-900 mb-1 line-clamp-1">
+                    {relBook.position}
+                  </div>
                   <div className="text-gray-900 text-sm font-sans">
                     {relBook.author}
                   </div>
