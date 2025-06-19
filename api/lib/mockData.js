@@ -2,11 +2,13 @@
 export const mockBooks = [
   {
     id: 1,
-    title: "The Brothers Karamazov",
-    author: "Fyodor Dostoevsky",
+    title: "Untitled",
+    series: "Freeing Allieria",
+    position: "Book 1",
+    author: "C. B. Reed",
     description:
-      "A passionate philosophical novel set in 19th-century Russia, which explores ethical debates of God, free will, and morality.",
-    image_url: "/images/books/brothers-karamazov.jpg",
+      "On his 13th birthday Damien received some world shattering news. Now, a year later, he is ready to embrace his new identity and do what needs to be done.",
+    image_url: "/images/books/under-construction.jpg",
     genre: "Literary Fiction",
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString(),
