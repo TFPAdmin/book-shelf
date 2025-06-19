@@ -9,7 +9,7 @@ export const mockBooks = [
     description:
       "On his 13th birthday Damien received some world shattering news. Now, a year later, he is ready to embrace his new identity and do what needs to be done.",
     image_url: "/images/books/under-construction.jpg",
-    genre: "Literary Fiction",
+    genre: "Fantasy",
     created_at: new Date().toISOString(),
     updated_at: new Date().toISOString(),
   },
