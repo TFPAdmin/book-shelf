@@ -2,8 +2,6 @@
 CREATE TABLE IF NOT EXISTS books (
     id SERIAL PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
-    series VARCHAR(255) NOT NULL,
-    position VARCHAR(255) NOT NULL,
     author VARCHAR(255) NOT NULL,
     description TEXT,
     image_url VARCHAR(255),
@@ -14,7 +12,7 @@ CREATE TABLE IF NOT EXISTS books (
 
 
 -- Insert books data with consolidated genres
-INSERT INTO books (id, title, author, description, image_url, genre) VALUES
+INSERT INTO books (id, title, series, position, author, description, image_url, genre) VALUES
 (1, 'The Brothers Karamazov', 'Fyodor Dostoevsky', 'A passionate philosophical novel set in 19th-century Russia, which explores ethical debates of God, free will, and morality.', '/images/books/brothers-karamazov.jpg', 'Literary Fiction'),
 (2, 'East of Eden', 'John Steinbeck', 'A multigenerational family saga set in the Salinas Valley, California, exploring themes of good and evil through the intertwined stories of two families.', '/images/books/east-of-eden.jpg', 'Literary Fiction'),
 (3, 'The Fifth Season', 'N.K. Jemisin', 'Set in a world where catastrophic climate change occurs regularly, this novel follows a woman searching for her daughter while navigating a society divided by powers.', '/images/books/fifth-season.jpg', 'Science Fiction & Fantasy'),
