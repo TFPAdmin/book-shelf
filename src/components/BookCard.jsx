@@ -10,8 +10,8 @@ function BookCard({ book, onClick }) {
       </div>
       <div className="book-card-content">
         <h3 className="text-lg font-serif mb-1 line-clamp-1">{book.title}</h3>
-        <h3 className="text-lg font-serif mb-1 line-clamp-1">{book.Series}</h3>
-        <p className="text-gray-900 text-sm mb-2">by {book.position}</p>
+        <h3 className="text-lg font-serif mb-1 line-clamp-2">{book.Series}</h3>
+        <p className="text-gray-900 text-sm mb-2"> {book.position}</p>
         <p className="text-gray-900 text-sm mb-2">by {book.author}</p>
         <p className="text-gray-900 text-sm overflow-hidden line-clamp-3 mb-4">
           {book.description}
