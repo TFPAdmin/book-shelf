@@ -1,4 +1,4 @@
-function WelcomeBanner() {
+function MockDataBanner() {
   return (
     <div className="mock-data-banner">
       <div className="banner-content">
@@ -12,4 +12,4 @@ function WelcomeBanner() {
   );
 }
 
-export default WelomeBanner;
+export default MockDataBanner;
