@@ -74,9 +74,7 @@ function BooksList({ filter, onSelectBook }) {
           <option value="title_desc">Title (Z-A)</option>
           <option value="author_asc">Author (A-Z)</option>
           <option value="author_desc">Author (Z-A)</option>
-          <option value="subtitle_asc">Subtitle (A-Z)</option>
-          <option value="subtitle_desc">Subtitle (Z-A)</option>
-        </select>
+          </select>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
