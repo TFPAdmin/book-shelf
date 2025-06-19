@@ -18,6 +18,15 @@ function BookCard({ book, onClick }) {
         <button className="btn-primary w-full text-sm font-bold">
           Learn more
         </button>
+        {/* New button linking to Wattpad profile */}
+        <a
+          href="https://www.wattpad.com/user/CBReed_Author"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-secondary w-full text-sm font-bold mt-2"
+        >
+          Visit Wattpad Profile
+        </a>
       </div>
     </div>
   );
