@@ -61,10 +61,57 @@ function BookDetail({ bookData }) {
 
               <p className="text-gray-900 leading-relaxed">{book.description}</p>
 
-              {/* Button linking to Wattpad profile (Outlined) */}
+              {/* Button linking to Wattpad profile (Moved below description) */}
               <div className="mt-8">
                 <a
                   href="https://www.wattpad.com/user/CBReed_Author"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-outline w-fu
+                  className="btn-primary w-full text-sm font-bold mt-4"
+                >
+                  Visit Author's Wattpad Profile
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Other books in this genre - combined section */}
+        {relatedBooks.length > 0 && (
+          <section className="mb-12">
+            <h3 className="mb-6">
+              {book.genre
+                ? `Other Books in ${book.genre}`
+                : "You May Also Like"}
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4">
+              {relatedBooks.map((relBook) => (
+                <div
+                  key={relBook.id}
+                  className="card py-4 px-5 text-center cursor-pointer"
+                  onClick={() => handleRelatedBookClick(relBook.id)}
+                >
+                  <div className="w-24 h-32 mx-auto mb-3">
+                    <img
+                      src={relBook.image_url}
+                      alt={relBook.title}
+                      className="w-full h-full object-contain rounded-sm border border-gray-200"
+                    />
+                  </div>
+                  <div className="font-serif text-gray-900 mb-1 line-clamp-1">
+                    {relBook.title}
+                  </div>
+                  <div className="text-gray-900 text-sm font-sans">
+                    {relBook.author}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export default BookDetail;
