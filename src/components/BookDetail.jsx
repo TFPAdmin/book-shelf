@@ -69,7 +69,7 @@ function BookDetail({ bookData }) {
                   rel="noopener noreferrer"
                   className="btn-primary w-full text-sm font-bold mt-4"
                 >
-                  Visit Author's Wattpad Profile
+                  Find On My Wattpad Profile!
                 </a>
               </div>
             </div>
